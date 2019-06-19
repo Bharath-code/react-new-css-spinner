@@ -4,7 +4,7 @@
   "description": "React Modern CSS Spinner",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint '**/*.js'"
   },
   "keywords": [
     "react",
@@ -14,6 +14,14 @@
   "author": "Bharath",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "husky": "^2.4.1",
+    "lint-staged": "^8.2.1"
   }
 }
